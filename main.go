@@ -33,6 +33,9 @@ func main() {
 	andrey = andrey + 16340743937020252740474048
 	andrey = andrey * 2
 	fmt.Println(andrey)
+	var svetlana string
+	svetlana = mom
+	svetlana = mom + i_love_you
 	sayHello()
 	sayHello()
 }
