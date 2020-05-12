@@ -10,6 +10,9 @@ func sayHello() {
 func sayGoodbye() {
 	fmt.Println("Goodbye. My name is Illia!")
 }
+func sayGoodmorning() {
+	fmt.Println("Goodmorning. I am Baba")
+{	
 func main() {
 	sayGoodbye()
 
