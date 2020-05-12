@@ -28,6 +28,11 @@ func main() {
 	counter = counter + 2
 	counter = counter + 2
 	fmt.Println(counter)
+	var andrey int
+	andrey = 5000000000000000000
+	andrey = andrey + 16340743937020252740474048
+	andrey = andrey * 2
+	fmt.Println(andrey)
 	sayHello()
 	sayHello()
 }
