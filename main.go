@@ -36,6 +36,8 @@ func main() {
 	var svetlana string
 	svetlana = mom
 	svetlana = mom + i_love_you
+	var bogdan_and_bee bool
+	bogdan_and_bee = true
 	sayHello()
 	sayHello()
 }
