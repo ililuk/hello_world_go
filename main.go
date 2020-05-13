@@ -12,8 +12,9 @@ func sayGoodbye() {
 }
 func sayGoodmorning() {
 	fmt.Println("Goodmorning. I am Baba")
-}	
-func main() {
+}
+
+func oldMain() {
 	sayGoodbye()
 	fmt.Println("Hello world.my name is Illia")
 	fmt.Println("123")
@@ -40,5 +41,12 @@ func main() {
 	bogdanAndBee = true
 	fmt.Println(bogdanAndBee)
 	sayHello()
-	sayHello()
+	sayHello()	
+}
+
+func main() {
+	var i int = 0
+	for i = 0; i < 100; i = i + 2 {
+		fmt.Println(i, "Hello, Ilia")
+	}
 }
