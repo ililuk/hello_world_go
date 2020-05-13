@@ -12,10 +12,9 @@ func sayGoodbye() {
 }
 func sayGoodmorning() {
 	fmt.Println("Goodmorning. I am Baba")
-{	
+}	
 func main() {
 	sayGoodbye()
-
 	fmt.Println("Hello world.my name is Illia")
 	fmt.Println("123")
 	var illia string
@@ -29,15 +28,17 @@ func main() {
 	counter = counter + 2
 	fmt.Println(counter)
 	var andrey int
-	andrey = 5000000000000000000
-	andrey = andrey + 16340743937020252740474048
+	andrey = 500000
+	andrey = andrey + 16340
 	andrey = andrey * 2
 	fmt.Println(andrey)
 	var svetlana string
-	svetlana = mom
-	svetlana = mom + i_love_you
-	var bogdan_and_bee bool
-	bogdan_and_bee = true
+	svetlana = "mom"
+	svetlana = "mom" + "i_love_you"
+	fmt.Println(svetlana)
+	var bogdanAndBee bool
+	bogdanAndBee = true
+	fmt.Println(bogdanAndBee)
 	sayHello()
 	sayHello()
 }
