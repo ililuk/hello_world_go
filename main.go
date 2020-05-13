@@ -46,7 +46,7 @@ func oldMain() {
 
 func main() {
 	var i int = 0
-	for i = 0; i < 21; i = i + 3 {
+	for i = 0; i < 24; i = i + 3 {
 		fmt.Println(i, "Hello, grandfather")
 	}
 }
