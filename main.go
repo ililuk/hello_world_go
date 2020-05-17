@@ -1,19 +1,22 @@
 package main
 
-import "fmt"
+import ("fmt")
 
-func hello(abcd string) {
-	fmt.Println("Hello,", abcd)
+
+//func buyFish(size int, price int ) {
+//}
+
+//Hello, Andrei. You are 2 years old
+
+func greetingWithAge(name string, age int) {
+	fmt.Println("Hello,",name,". You are",age,"years old")
 }
 
-func showNumber(one int) {
-        fmt.Println(one + 1)
-}
-
-func main() {
-	var i int
-	for i = 0; i < 5; i = i + 1 {
-		hello("Illia")
+func main () {
+	fmt.Println("hello world")
+	var i int = 0
+	for i = 0; i < 6;i = i + 1 {
+		greetingWithAge("Andrei",i)	
 	}
-	showNumber(23)
-}
+	}
+	
